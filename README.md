@@ -1,37 +1,175 @@
-# POWER_BI_DASHBOARD
-1. Project Title / Headline
-🛒 Madhav Ecommerce Sales Dashboard  
-An interactive Power BI analytics report designed to evaluate e-commerce operations, tracking profitability, transaction volumes, payment preferences, and regional performance.
-2. Short Description / Purpose
-The Madhav Ecommerce Sales Dashboard transforms transactional e-commerce sales data into actionable business insights. It enables store managers, financial analysts, and marketing strategists to track revenue, profit margins, customer order sizes, and seasonal category performance across major Indian states and quarterly business cycles.
-3.Tech Stack📊 Power BI Desktop:
-   Developed responsive dashboard layouts, custom dark neon themes, and cross-filtering visual components.
-   📂 Power Query: Performed data transformations, null value handling, column data typing, and table structures across order datasets.
-   🧠 DAX (Data Analysis Expressions): Formulated key measures for calculated aggregations including Sum of Profit, Sum of Amount, Sum of AOV, and Sum of Quantity.
-   📝 Data Modeling: Established logical schema relationships connecting transaction logs (Details.csv and Orders.csv) with location and category attributes.
-   📁 File Formats: Developed using Power BI project files (.pbit/.pbix), backed by CSV datasets, and exported in .png format for repository documentation.
-4.Data Source
-Sources:Transactional E-Commerce Order Records (Details.csv and Orders.csv).
-Dataset Structure: Contains line-item transaction records encompassing customer names, purchase amounts, profit margins, payment methods (COD, UPI, Credit Card, Debit Card, EMI), product categories/sub-categories, and state-level geographic location tracking.
-5.Features / Highlights
-Business Problem
-E-commerce businesses frequently struggle to identify which product lines drive net profitability versus those that generate top-line revenue without margin. Understanding customer payment channel choices and regional demand patterns is critical for managing inventory, reducing return rates (RTO), and optimizing cash flow.
-Goal of the Dashboard
-To provide an intuitive visual interface that enables decision-makers to evaluate profit drivers, track seasonal sales fluctuations, pinpoint top-performing geographies, and analyze product category demand patterns.
-Walkthrough of Key Visuals
-KPI Summary Cards (Top Left): Displays core store performance metrics—Sum of Profit (13K), Sum of Amount (144K), Sum of AOV (41K), and total unit volume sold (Sum of Quantity: 3,516).
-Interactive Slicers (Top Right): Button slicers for quarterly filtering (Qtr 1 to Qtr 4) paired with a dropdown slicer for state-level cross-filtering.
-Profit by Month (Bar Chart): Tracks monthly profitability trends, illustrating strong profit peaks in Q1 (January–March) and Q4 (November), alongside mid-year dips.
-Sum of Profit by State (Horizontal Bar Chart): Compares profitability across regions, highlighting top performers like Madhya Pradesh and Maharashtra.
-Quantity by Payment Mode (Donut Chart): Maps payment distribution—led by Cash on Delivery (COD at 28%) and UPI (14%), followed by Debit Card (8%), Credit Card (7%), and EMI (6%).
-Sum of Amount by Customer Name (Bar Chart): Isolates top individual revenue generators such as Harivansh, Madhav, Madan Mohan, and Shiva.
-Count of Quantity by Category (Donut Chart): Shows unit sales volume breakdown across core catalog categories: Clothing (63%), Electronics (21%), and Furniture (16%).
-Sum of Profit by Sub-Category (Bar Chart): Ranks sub-categories by net return, identifying Printers, Bookcases, and Sarees as key margin drivers.
-Business Impact & Insights
-Catalog Optimization: Focus marketing investments on high-margin sub-categories like Printers and Bookcases while driving volume through Clothing.
-Geographic Targeting: Tailor regional ad spend and logistics operations toward top revenue states like Madhya Pradesh and Maharashtra.
-Payment Strategy: Transition customers from high Cash-on-Delivery (28%) reliance toward digital payment methods (UPI/Cards) to decrease order return rates and speed up settlement cycles.  Inventory & Promotions: Adjust promotional strategy during Q2/Q3 to offset seasonal margin compression.
+# 🛒 Madhav Ecommerce Sales Dashboard | Power BI
 
+## 📌 Project Overview
+The **Madhav Ecommerce Sales Dashboard** is an interactive Power BI analytics project designed to analyze e-commerce business performance. The dashboard provides valuable insights into **sales, profit, customer purchasing behavior, payment preferences, product performance, and regional trends**.
+It helps business stakeholders make data-driven decisions by transforming raw transactional data into meaningful and actionable visual insights.
 
+## 🎯 Project Objective
+The main objective of this project is to:
+* Analyze overall sales and profitability.
+* Identify high-performing products and sub-categories.
+* Track sales and profit trends across different months and quarters.
+* Understand customer purchasing patterns.
+* Analyze preferred payment methods.
+* Identify top-performing states and customers.
+* Support data-driven business and marketing decisions.
 
-    
+## 🛠️ Tech Stack
+### 📊 Power BI Desktop
+* Designed an interactive and responsive dashboard.
+* Created visually appealing dashboard layouts.
+* Implemented interactive charts, slicers, and cross-filtering features.
+### 📂 Power Query
+* Performed data cleaning and transformation.
+* Handled missing or null values.
+* Modified column data types.
+* Prepared datasets for analysis.
+### 🧠 DAX (Data Analysis Expressions)
+Created calculated measures for important business metrics, including:
+* Sum of Profit
+* Sum of Amount
+* Average Order Value (AOV)
+* Sum of Quantity
+### 🔗 Data Modeling
+* Established relationships between multiple datasets.
+* Connected order and transaction details for effective analysis.
+### 📁 File Formats
+* Power BI Project: `.pbix`
+* Dataset: `.csv`
+* Dashboard Images: `.png`
+## 📊 Data Source
+The dashboard is built using transactional e-commerce datasets:
+* `Details.csv`
+* `Orders.csv`
+### Dataset Includes:
+* Customer Names
+* Order Amount
+* Profit
+* Quantity
+* Payment Modes
+* Product Categories
+* Product Sub-Categories
+* State-wise Sales Information
+### Payment Methods Analyzed:
+* Cash on Delivery (COD)
+* UPI
+* Credit Card
+* Debit Card
+* EMI
+  
+## 📈 Dashboard Features
+### 🔹 KPI Summary Cards
+The dashboard displays important business performance indicators:
+* 💰 **Total Profit:** 13K
+* 💵 **Total Sales Amount:** 144K
+* 🛍️ **Average Order Value (AOV):** 41K
+* 📦 **Total Quantity Sold:** 3,516
+  
+### 🔹 Interactive Filters
+Users can dynamically filter the dashboard using:
+* Quarterly Filters (Q1–Q4)
+* State-wise Filters
+These slicers allow users to explore data and compare business performance across different periods and locations.
+
+### 🔹 Profit by Month
+A bar chart displaying monthly profit trends.
+**Key Insight:**
+* Strong profit performance during Q1.
+* Another significant profit peak in November.
+* Some mid-year months show comparatively lower profitability.
+  
+### 🔹 Profit by State
+A horizontal bar chart comparing profit performance across different Indian states.
+
+**Top-performing states include:**
+* Madhya Pradesh
+* Maharashtra
+This analysis helps identify regions contributing significantly to business profitability.
+
+### 🔹 Quantity by Payment Mode
+A donut chart representing customer payment preferences.
+**Key Insights:**
+* Cash on Delivery (COD) – 28%
+* UPI – 14%
+* Debit Card – 8%
+* Credit Card – 7%
+* EMI – 6%
+COD remains one of the most commonly used payment methods.
+### 🔹 Sales Amount by Customer
+A bar chart identifying customers contributing significantly to total sales.
+Some of the top customers include:
+* Harivansh
+* Madhav
+* Madan Mohan
+* Shiva
+### 🔹 Quantity by Category
+A donut chart displaying product sales distribution across categories.
+* 👕 Clothing – 63%
+* 💻 Electronics – 21%
+* 🪑 Furniture – 16%
+
+**Key Insight:** Clothing represents the largest share of total units sold
+### 🔹 Profit by Sub-Category
+A bar chart ranking product sub-categories based on profitability.
+Top-performing sub-categories include:
+* Printers
+* Bookcases
+* Sarees
+This analysis helps identify products that generate strong profit margins.
+
+## 💡 Business Insights
+### 📌 Catalog Optimization
+High-margin products such as **Printers and Bookcases** can be prioritized for targeted marketing and promotional campaigns.
+### 📌 Geographic Targeting
+Regions such as **Madhya Pradesh and Maharashtra** show strong profitability and can be targeted for increased marketing and operational investments.
+### 📌 Payment Strategy
+The high usage of **Cash on Delivery (COD)** suggests an opportunity to encourage digital payments such as UPI and card payments. This could potentially improve payment settlement speed and reduce operational challenges associated with COD orders.
+### 📌 Inventory and Promotions
+Promotional and inventory strategies can be optimized during lower-profit periods to improve sales and profitability.
+
+## 🚀 Business Impact
+This dashboard helps businesses:
+* Identify profitable products and categories.
+* Understand customer purchasing behavior.
+* Track sales and profit performance.
+* Improve regional marketing strategies.
+* Optimize payment methods.
+* Make data-driven inventory decisions.
+
+---
+
+## 📷 Dashboard Preview
+> Add your Power BI dashboard screenshot here.
+
+```text
+Example:
+![Madhav Ecommerce Sales Dashboard](dashboard.png)
+
+## 📂 Project Structure
+
+```text
+Madhav-Ecommerce-Sales-Dashboard/
+│
+├── Details.csv
+├── Orders.csv
+├── Madhav Ecommerce Sales Dashboard.pbix
+├── dashboard.png
+└── README.md
+```
+
+---
+
+## 👨‍💻 Author
+**Yuga Bhagat**
+B.Tech Graduate | Aspiring Data Analyst
+
+### Skills
+* Power BI
+* SQL
+* PostgreSQL
+* Microsoft Excel
+* Python
+* Data Analysis
+* Data Visualization
+* Power Query
+---
