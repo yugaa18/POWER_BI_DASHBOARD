@@ -1,6 +1,5 @@
 # POWER_BI_DASHBOARD
 1. Project Title / Headline
-
 🛒 Mahadav Ecommerce Sales Dashboard  
 An interactive Power BI analytics report designed to evaluate e-commerce operations, tracking profitability, transaction volumes, payment preferences, and regional performance.
 3. Short Description / Purpose
