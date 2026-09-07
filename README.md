@@ -60,10 +60,10 @@ The dashboard is built using transactional e-commerce datasets:
 ## 📈 Dashboard Features
 ### 🔹 KPI Summary Cards
 The dashboard displays important business performance indicators:
-* 💰 **Total Profit:** 13K
-* 💵 **Total Sales Amount:** 144K
-* 🛍️ **Average Order Value (AOV):** 41K
-* 📦 **Total Quantity Sold:** 3,516
+* 💰 **Total Profit:** 37K
+* 💵 **Total Sales Amount:** 438K
+* 🛍️ **Average Order Value (AOV):** 121K
+* 📦 **Total Quantity Sold:** 5,615
   
 ### 🔹 Interactive Filters
 Users can dynamically filter the dashboard using:
@@ -89,11 +89,11 @@ This analysis helps identify regions contributing significantly to business prof
 ### 🔹 Quantity by Payment Mode
 A donut chart representing customer payment preferences.
 **Key Insights:**
-* Cash on Delivery (COD) – 28%
-* UPI – 14%
-* Debit Card – 8%
-* Credit Card – 7%
-* EMI – 6%
+* Cash on Delivery (COD) – 44%
+* UPI – 21%
+* Debit Card – 13%
+* Credit Card – 12%
+* EMI – 10%
 COD remains one of the most commonly used payment methods.
 ### 🔹 Sales Amount by Customer
 A bar chart identifying customers contributing significantly to total sales.
@@ -115,6 +115,8 @@ Top-performing sub-categories include:
 * Printers
 * Bookcases
 * Sarees
+* Accessories
+* Tables
 This analysis helps identify products that generate strong profit margins.
 
 ## 💡 Business Insights
@@ -135,41 +137,11 @@ This dashboard helps businesses:
 * Improve regional marketing strategies.
 * Optimize payment methods.
 * Make data-driven inventory decisions.
-
----
-
-## 📷 Dashboard Preview
-> Add your Power BI dashboard screenshot here.
-
-```text
-Example:
-![Madhav Ecommerce Sales Dashboard](dashboard.png)
-
-## 📂 Project Structure
-
-```text
-Madhav-Ecommerce-Sales-Dashboard/
-│
-├── Details.csv
-├── Orders.csv
-├── Madhav Ecommerce Sales Dashboard.pbix
-├── dashboard.png
-└── README.md
-```
-
 ---
 
 ## 👨‍💻 Author
 **Yuga Bhagat**
 B.Tech Graduate | Aspiring Data Analyst
 
-### Skills
-* Power BI
-* SQL
-* PostgreSQL
-* Microsoft Excel
-* Python
-* Data Analysis
-* Data Visualization
-* Power Query
 ---
+
