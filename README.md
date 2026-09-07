@@ -138,6 +138,8 @@ This dashboard helps businesses:
 * Optimize payment methods.
 * Make data-driven inventory decisions.
 ---
+##SCREENSHOT
+![image alt](https://github.com/yugaa18/POWER_BI_DASHBOARD/blob/18079308843aa166d3e75c833f86334ec4364a57/Screenshot_DASHBOARD.png)
 
 ## 👨‍💻 Author
 **Yuga Bhagat**
